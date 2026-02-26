@@ -1,0 +1,11 @@
+---
+- name: User creation
+  hosts: all
+  vars_files: users_list.yml
+  tasks:
+    - name: create users
+      user:
+        name: "{{item.name}}"
+        state: present
+        password: "{{item.password}}"
+      loop: "{{users}}"

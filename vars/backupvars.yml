@@ -1,0 +1,5 @@
+data:
+  - /etc/passwd
+  - /etc/shadow
+  - /etc/hosts
+  - /etc/selinux/config

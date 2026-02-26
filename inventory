@@ -1,0 +1,12 @@
+[admin]
+servera.lab.example.com
+
+[all]
+servera.lab.example.com
+serverb.lab.example.com
+serverc.lab.example.com
+serverd.lab.example.com
+
+[gym]
+serverc.lab.example.com
+serverd.lab.example.com

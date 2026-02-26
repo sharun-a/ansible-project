@@ -1,0 +1,9 @@
+---
+- name: Custom MOTD Banner
+  hosts: all
+
+  tasks:
+    - name: Add template
+      template:
+        src: motd.j2
+        dest: /etc/motd

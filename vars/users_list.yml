@@ -1,0 +1,6 @@
+users:
+  - name: devops2
+    password: devops2
+  - name: devops3
+    password: devops3
+

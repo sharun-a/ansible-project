@@ -1,0 +1,6 @@
+---
+# defaults file for roles/selinux
+
+ selinux_mode: enforcing
+ selinux_type: targeted
+

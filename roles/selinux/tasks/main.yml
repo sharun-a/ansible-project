@@ -1,0 +1,6 @@
+- name: Change template of selinux config file
+  template:
+    src: selinux.j2
+    dest: /etc/selinux/config
+  notify: Reboot System     
+

@@ -1,0 +1,7 @@
+---
+- name: create users
+  user:
+    name: "{{item.name}}"
+    state: present
+    password: "{{item.password}}"
+  loop: "{{users}}"

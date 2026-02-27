@@ -1,0 +1,6 @@
+---
+- name: Fetch important system files
+  fetch:
+    src: "{{ item }}"
+    dest: "backup/{{ ansible_date_time.date }}/"
+  loop: "{{data}}"
